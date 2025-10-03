@@ -7,7 +7,7 @@ function Orders() {
     // Define an async function
     const fetchOrders = async () => {
       try {
-        const res = await axios.get("http://localhost:3002/orders");
+        const res = await axios.get("https://stocktrading-backend.onrender.com");
         console.log(res.data);
         setAllOrders(res.data);
       } catch (err) {
