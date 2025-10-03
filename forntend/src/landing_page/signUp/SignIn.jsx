@@ -18,7 +18,8 @@ function SignIn() {
     if(res.data.success){
         alert("Login successfull!")
          // full redirect to dashboard project
-      window.location.href = "https://stocktrading-dashboard.onrender.com"; // dashboard URL
+      window.location.assign("https://stocktrading-dashboard.onrender.com");
+ // dashboard URL
     }else{
       alert(res.data.message||"Invalid Credentials")
     }
