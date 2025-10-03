@@ -9,7 +9,7 @@ const BuyActionWindow=({uid})=>{
 //handle byclick
 
    const handleBuyClick=()=>{
-    axios.post("https://stocktrading-backend.onrender.com",{
+    axios.post("https://stocktrading-backend.onrender.com/newOrder",{
         name:uid,
         qty:stockQuantity,
         price:stockPrice,
