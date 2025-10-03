@@ -1,0 +1,27 @@
+
+#supportSection {
+  background-color: rgb(53, 53, 237);
+  height:400px;
+  width: 100%;
+  color: white;
+}
+#supportWraper {
+  display: flex;
+  justify-content: space-around;
+}
+#supportParagraph {
+  margin-left: 39%;
+}
+#inputSupport {
+  width: 72%;
+  height: 34%;
+  margin-left: 39%;
+  font-size: medium;
+  margin-top: 2%;
+  border-radius: 5px;
+  border: none;
+}
+
+#linkSupport {
+  margin-left: 39%;
+}

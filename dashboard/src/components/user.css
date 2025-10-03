@@ -1,0 +1,22 @@
+.profile-sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px; /* initially hidden */
+  width: 300px;
+  height: 50%;
+  background-color: #f8f9fa;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.2);
+  border: none;
+  padding: 20px;
+  transition: right 0.3s ease;
+  z-index: 999;
+  margin-top: 5.5%;
+}
+
+.profile-sidebar.open {
+  right: 0; /* slide in */
+}
+
+.profile-sidebar button {
+  margin-top: 20px;
+}

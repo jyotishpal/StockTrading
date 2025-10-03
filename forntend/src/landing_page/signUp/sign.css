@@ -1,0 +1,23 @@
+/* style.css */
+
+
+.signin-container, .signup-container {
+  background: linear-gradient(135deg, #f0f4ff, #e6f7ff);
+ 
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.card h2 {
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+}
+.btn:hover {
+  opacity: 0.9;
+}
