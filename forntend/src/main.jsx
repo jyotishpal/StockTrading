@@ -13,11 +13,11 @@ import SupportPage from './landing_page/support/SupportPage';
 import ScrollToTop from "./landing_page/ScrollTop";
 
 import NotFound from './landing_page/NotFound';
-import { BrowserRouter, Routes,Route } from 'react-router-dom';
+import { HashRouter, Routes,Route } from 'react-router-dom';
 
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+    <HashRouter>
   <ScrollToTop />
   <Navbar/>
   <Routes>
@@ -33,5 +33,5 @@ createRoot(document.getElementById('root')).render(
 
   </Routes>
   <Footer/>
-  </BrowserRouter>,
+    </HashRouter>,
 )
