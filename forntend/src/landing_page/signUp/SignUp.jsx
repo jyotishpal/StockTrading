@@ -16,7 +16,7 @@ function SignUp() {
     console.log("Form Submitted:", formData);
      // yaha API call kar sakte ho
      try{
-     axios.post("http://localhost:3002/newUser",{
+     axios.post("https://stocktrading-backend.onrender.com/newUser",{
         name:formData.name,
         email:formData.email,
         password:formData.password
