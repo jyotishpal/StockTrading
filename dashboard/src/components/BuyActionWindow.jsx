@@ -1,7 +1,7 @@
-import {Link, useContext} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import GeneralContext from '../context/GeneralContext';
 import "./BuyActionWindow.css";
-import { useState } from 'react';
+import { useState , useContext} from 'react';
 import axios from "axios";
 const BuyActionWindow=({uid})=>{
     const[stockQuantity,setStockQuantity]=useState(1);
