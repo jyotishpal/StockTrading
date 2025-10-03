@@ -6,7 +6,7 @@ import Positions from "./Positions";
 import Fund from "./Fund";
 import App from "./App";
 
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter,Routes, Route } from "react-router-dom";
 //importing the Generalcontextprovider
 import { GeneralContextProvider } from "../context/GeneralContext";
 
@@ -21,6 +21,7 @@ function Dashboard() {
         </div>
 
         <div className="col-9 px-0" style={{ borderLeft: "1px solid #000" }}>
+           <BrowserRouter>
           <Routes>
             
             <Route path="/" element={<Summary />} />
@@ -31,6 +32,7 @@ function Dashboard() {
             <Route path="/funds" element={<Fund />} />
             <Route path="/app" element={<App />} />
           </Routes>
+             </BrowserRouter>,
         </div>
       </div>
     </div>
