@@ -14,7 +14,7 @@ function Menu() {
 
   //const Logoutfuction
   const logout=()=>{
-    window.location.href = "http://localhost:5173/"; 
+    window.location.href = "https://stocktrading-forntend.onrender.com"; 
   }
 
   const menuClass = "menu";
