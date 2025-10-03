@@ -4,7 +4,7 @@ import axios from 'axios';
 function Positions() {
   const[allpositions , setAllpositions]=useState([]);
   useEffect(()=>{
-    axios.get("https://stocktrading-backend.onrender.com")
+    axios.get("https://stocktrading-backend.onrender.com/allpositions")
     .then((res)=>{
       setAllpositions(res.data);
     })
