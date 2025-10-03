@@ -10,7 +10,7 @@ function SignIn() {
   e.preventDefault();
   console.log("Login data",signInData);
   try{
-    const res= await axios.post("http://localhost:3002/login",{
+    const res= await axios.post("https://stocktrading-backend.onrender.com/login",{
       email:signInData.email,
       password:signInData.password,
       
