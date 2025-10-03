@@ -5,7 +5,7 @@ import { ChartGrap } from "./ChartGraph";
 function Holding() {
  const[allholdings ,setAllholdings]=useState([]);
  useEffect(()=>{
- axios.get("http://localhost:3002/allholdings")
+ axios.get("https://stocktrading-backend.onrender.com")
  .then((res)=>{
   // console.log(res.data);
   setAllholdings(res.data);
