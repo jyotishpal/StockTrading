@@ -16,7 +16,7 @@ function SignIn() {
       
     })
     if(res.data.success){
-        alert("Login successfull!")
+        // alert("Login successfull!")
          // full redirect to dashboard project
        window.open("https://stocktrading-dashboard.onrender.com/", "_blank");
  // dashboard URL
